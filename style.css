@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+/* main */
+
+main {
+  width: 100%;
+}
+
+header {
+  background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 535px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.nav-bar {
+  margin-left: -80px;
+}
+
+.nav-bar img {
+  width: 20px;
+  padding-right: 5px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  margin-top: 85px;
+  margin-right: -60px;
+  width: 900px;
+  border-radius: 5px;
+  border: none;
+  height: 37px;
+  cursor: pointer;
+}
+
+.nav-bar ul li {
+  padding: 8px 30px 15px 30px;
+  border: 1px solid grey;
+  height: 13px;
+  width: 400px;
+}
+
+.nav-bar ul li:hover {
+  background-color: #413f3f;
+}
+
+.nav-bar input {
+  width: 100px;
+  border-radius: 10px;
+  background: url(images/search.svg), linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.nav-bar .logo {
+  margin-left: -40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-bar .nav-input {
+  border-radius: 5px;
+}
+
+.verse {
+  margin-top: 10px;
+}
+
+/* grid-section */
+
+.grid-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0 10px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.grid-image img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.verse .verse-header img {
+  padding-top: 15px;
+}
+
+.verse .verse-text img {
+  padding-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  font-size: 10px;
+  color: #0097db;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0 3px;
+}
+
+.links h6 {
+  padding: 0 3px;
+}
