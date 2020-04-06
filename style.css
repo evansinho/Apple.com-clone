@@ -94,6 +94,7 @@ header {
   display: flex;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .grid-image img {
