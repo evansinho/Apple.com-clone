@@ -17,7 +17,7 @@ A clone of the old apple homepage
 
 ## Live Demo
 
-* [live demo]()
+* [live demo](https://raw.githack.com/evansinho/Apple.com-clone/apple-clone/index.html)
 
 ## Getting Started
 
