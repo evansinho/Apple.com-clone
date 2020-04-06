@@ -22,13 +22,18 @@ body {
 
 /* main */
 
+main {
+  width: 100%;
+}
+
 header {
   background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 535px;
-  width: 1350px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .nav-bar {
@@ -92,14 +97,15 @@ header {
 
 .grid-image {
   display: flex;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 20px;
+  justify-content: center;
   width: 100%;
+  margin: 0 auto;
+  padding: 5px 0 10px 0;
 }
-
 .grid-image img {
-  width: 337.5px;
+  width: 359px;
   height: 200px;
+  margin-left: 2px;
 }
 
 .verse .verse-header img {
